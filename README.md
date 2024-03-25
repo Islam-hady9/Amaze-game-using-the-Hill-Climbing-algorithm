@@ -120,3 +120,42 @@ game.print_maze()
 - Print the initial maze layout.
 - Apply the hill climbing algorithm to guide the robot.
 - Print the final maze layout showing the path taken by the robot.
+
+## The Output:
+
+### Initial Maze Layout:
+```
+ ##########
+  #       #
+ # #  # # #
+## # ## # #
+   # # #  #
+# ####   ##
+ #     # ##
+ ### ### ##
+   #    ###
+ ###### ###
+```
+- In the initial maze layout, '#' symbols represent walls, and ' ' (space) represents empty spaces.
+- The maze is randomly generated and may have different layouts each time the code is run.
+- The robot starts at the top-left corner of the maze (position marked by the space at coordinates (0, 0)).
+- The goal is located at the bottom-right corner of the maze (position marked by the space at coordinates (9, 9)).
+
+### Final Maze Layout (After Robot's Path):
+```
+ ##########
+  #       #
+ # #  # # #
+## # ## # #
+   # # #  #
+# ####   ##
+ #     # ##
+ ### ### ##
+       ####
+ ###### ###
+```
+- After applying the hill climbing algorithm, the robot successfully navigates through the maze to reach the goal.
+- The path taken by the robot is represented by cleared out spaces in the maze layout.
+- The robot moves from its initial position towards the goal, avoiding walls, until it reaches the goal position.
+
+By observing both the initial and final maze layouts, we can see how the robot effectively navigates through the maze to reach the goal using the hill climbing algorithm.
